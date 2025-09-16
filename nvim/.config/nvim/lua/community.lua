@@ -11,4 +11,5 @@ return {
   { import = "astrocommunity.pack.prettier" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.eslint" },
+  { import = "astrocommunity.pack.python-ruff" },
 }
