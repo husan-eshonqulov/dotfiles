@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -eu
+set -e
 
 # --- Helpers ---
 log() {
@@ -70,6 +70,7 @@ setup_de() {
   stow backgrounds hyprmocha readline
 
   log "Setting up Hyprland environment"
+  setup_hyprland
   setup_hyprpaper
   setup_hyprlock
   setup_hypridle
@@ -78,7 +79,6 @@ setup_de() {
   setup_wofi
   setup_kitty
   setup_swappy
-  setup_hyprland
 
   log "Setup complete 🎉"
 }
