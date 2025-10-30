@@ -72,7 +72,7 @@ setup_de() {
 
 	log "Installing base packages"
 	pacman -S --noconfirm \
-		noto-fonts otf-font-awesome ttf-cascadia-code-nerd \
+		noto-fonts noto-fonts-emoji otf-font-awesome ttf-cascadia-code-nerd \
 		brightnessctl firefox stow
 
 	log "Stowing common configs"
